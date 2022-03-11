@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main  - main function
+ * main - Print a text according to alphabet
  *
  * Return - End program
  */
