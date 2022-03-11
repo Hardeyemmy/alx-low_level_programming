@@ -2,7 +2,7 @@
 /**
  * main - Print a text according to alphabet
  *
- * Return - End the program
+ * Return: End the program
  */
 int main(void)
 {
