@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Print the alphabet letter in reverse 
+ * main - Print the alphabet letter in reverse
  *
  * Return: End the program
  */
