@@ -6,25 +6,31 @@
  */
 int main(void)
 {
-	int c, i;
+	int c, i, b;
+	c = 0;
+	i = 0;
+	b = 1;
 
-	for (c = '0'; c <= '9'; c++)
+	while (c <= 9)
 	{
-		for (i = '0'; c <= '9'; i++)
+		while(i <= 9)
 		{
 			if (c < i) 
 			{
-				putchar(c);
-				putchar(i);
-
-				if (c != '8' || (c == '8' && i != '9'))
+				if (b == 0)
 				{
 					putchar(',');
-					putchar(' ');
+					putchar('32');
 				}
+				b == 0;
+				putchar(a + '0');
+				putchar(b + '0');
 			}
+			++b
 		}
+		++a
+			b = 0;
 	}
-	putchar('\n');
+	putchar(10);
 	return (0);
 }
