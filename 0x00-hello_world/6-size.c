@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Print the size of the machine
- *  
- *Return: End of the program
+ *
+ * Return: End of the program
  */
 int main(void)
 {
