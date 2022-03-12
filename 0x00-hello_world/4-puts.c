@@ -1,10 +1,9 @@
 
 #include <stdio.h>
 /**
- *
  * main - entry point
  *
- * Return: 0 number
+ * Return: End the program
  */
 int main(void)
 {
