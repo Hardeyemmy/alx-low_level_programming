@@ -20,16 +20,16 @@ int main(void)
 				if (b == 0)
 				{
 					putchar(',');
-					putchar('32');
+					putchar(32);
 				}
-				b == 0;
-				putchar(a + '0');
-				putchar(b + '0');
+				b = 0;
+				putchar(c + '0');
+				putchar(i + '0');
 			}
-			++b
+			++i
 		}
-		++a
-			b = 0;
+		++c
+			i = 0;
 	}
 	putchar(10);
 	return (0);
