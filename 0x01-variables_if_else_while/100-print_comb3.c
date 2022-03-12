@@ -16,7 +16,7 @@ int main(void)
 	{
 		while (i <= 9)
 		{
-			if (c < i) 
+			if (c < i)
 			{
 				if (b == 0)
 				{
