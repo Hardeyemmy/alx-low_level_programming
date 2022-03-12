@@ -7,13 +7,14 @@
 int main(void)
 {
 	int c, i, b;
+
 	c = 0;
 	i = 0;
 	b = 1;
 
 	while (c <= 9)
 	{
-		while(i <= 9)
+		while (i <= 9)
 		{
 			if (c < i) 
 			{
