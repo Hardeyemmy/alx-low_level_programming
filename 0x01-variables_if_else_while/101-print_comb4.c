@@ -6,37 +6,29 @@
  */
 int main(void)
 {
-	int a = 0;
-	int b = 0;
-	int c = 0;
-	int com = 1;
+	int c; i; k;
 
-	while (a <= 9)
+	for (c = '0'; c <= '9'; c++)
 	{
-		while (b <= 9)
+		for (i = '0'; i <= '9'; i++)
 		{
-			while (c <= 9)
+			for (k = '0'; k <= '9'; k++)
 			{
-				while (a < b && b < c)
+				if (c < i && i < k)
 				{
-					if (com == 0)
+					putchar(c);
+					putchar(i);
+					putchar(k);
+
+					if (c != '7')
 					{
 						putchar(',');
-						putchar(32);
+						putchar(' ');
 					}
-					com = 0;
-					putchar(a + '0');
-					putchar(b + '0');
-					putchar(c + '0');
+				
 				}
-				++c;
 			}
-			++b;
-			c = 0;
-		}
-		a++;
-		b = 0;
-	}
-	putchar(10);
+	}	}
+	putchar('\n');
 	return (0);
 }
