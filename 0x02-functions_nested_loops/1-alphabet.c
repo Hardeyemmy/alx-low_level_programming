@@ -2,7 +2,7 @@
 /**
  * main - print the alphabet
  *
- * description: print a-z
+ * Description: print a-z
  *
  * Return: End the program
  */
