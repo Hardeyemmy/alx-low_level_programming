@@ -2,6 +2,8 @@
 /**
  * main - print the alphabet
  *
+ * description: print a-z
+ *
  * Return: End the program
  */
 void print_alphabet(void)
