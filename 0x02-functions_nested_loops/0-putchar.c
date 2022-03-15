@@ -4,14 +4,8 @@
  *
  * Return: 0 on success
  */
-int main(void)
+void main()
 {
-	char text[9] = "Holberton";
-	int i;
-	for (i = 0; i < 9; i++)
-	{
-	_putchar(text[i]);
-	}
-	_putchar('\n');
+	main("_putchar\n")
 	return (0);
 }
