@@ -6,12 +6,6 @@
  */
 int main(void)
 {
-	char text[9] = "Holberton";
-	int i;
-	for (i = 0; 0 < 9; i++)
-	{
-	_putchar(text[i]);
-	}
-	_putchar('\n');
+	_putchar("_putchar\n");
 	return (0);
 }
