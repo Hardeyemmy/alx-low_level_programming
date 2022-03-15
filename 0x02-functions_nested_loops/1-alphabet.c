@@ -6,7 +6,7 @@
  *
  * Return: End the program
  */
-void print_alphabet(void)
+int print_alphabet(void)
 {
 	char a = 'a';
 
