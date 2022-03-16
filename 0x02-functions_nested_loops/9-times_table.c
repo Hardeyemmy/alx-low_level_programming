@@ -21,7 +21,7 @@ void times_table(void)
 			tens = (n - units) / 10;
 			if (col > 0)
 			{
-			_putchars(' ');
+			_putchar(' ');
 			(tens <= 0) ? _putchar(' ') : _putchar(tens +'0');
 			}
 			_putchar(units + '0');
