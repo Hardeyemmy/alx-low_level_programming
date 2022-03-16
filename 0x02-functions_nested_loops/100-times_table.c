@@ -20,14 +20,14 @@ void print_times_table(int n)
 			else
 		{
 			product = i * k;
-			if (k = 0)
+			if (k == 0)
 			{
 				_putchar('0' + product);
 			}
 			else if (product >= 10)
 			{
 				_putchar(' ');
-				-putchar('0' + (product / 10));
+				_putchar('0' + (product / 10));
 				_putchar('0' + (product % 10));
 			}
 			else if (product >= 100)
