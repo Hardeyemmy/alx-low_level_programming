@@ -2,7 +2,7 @@
 /**
  * main - Print alphabet 10x
  *
- * Description: The body of the program
+ * Description: uses two loop to print a - z 10 times
  *
  * Return: End the program
  */
