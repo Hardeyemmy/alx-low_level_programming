@@ -8,17 +8,16 @@ int print_sign(int c)
 {
 	int result;
 
-	if (n > 0)
-	{
+	if(c > 0){
 		_putchar('+');
 		result = 1;
 	}
-	if (n == 0)
+	if (c == 0)
 	{
 		_putchar('0');
 		result = 0;
 	}
-	if (n < 0)
+	if (c < 0)
 	{
 		_putchar('-');
 		result = -1;
