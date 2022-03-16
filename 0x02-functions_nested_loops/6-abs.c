@@ -1,4 +1,4 @@
-#incude "main.h"
+#include "main.h"
 /**
  * main - absolute value of a num
  *
