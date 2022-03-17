@@ -2,13 +2,16 @@
 /**
  * print_line - write a draw line on the terminal
  *
- * Return: Return value
+ * Return: return the value
  */
-void print_line(int n)
+void print_line(int c)
 {
-	while (n-- > 0)
+	if (c > 0)
 	{
-	_putchar('-');
+		while (c--)
+		{
+		_putchar(95);
+		}
 	}
-	_putchar('\n');
+	_putchar(10);
 }
