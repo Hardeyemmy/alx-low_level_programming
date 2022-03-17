@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - isdigit function
+ * _isdigit - isdigit function
  *
  * Return: return value
  */

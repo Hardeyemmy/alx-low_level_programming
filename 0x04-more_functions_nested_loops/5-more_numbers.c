@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - print mutiply from 0 to 14 ten times
+ * more_numbers - print mutiply from 0 to 14 ten times
  *
  * Return: End the program
  */

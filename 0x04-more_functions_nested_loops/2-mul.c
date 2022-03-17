@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - multiply two variables
+ * mul - multiply two variables
  *
  * Return: return a value
  */

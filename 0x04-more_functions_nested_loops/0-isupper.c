@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - print 1 if uppercase otherwise 0
+ * _isupper - print 1 if uppercase otherwise 0
  *
  * Return: End the program
  */
