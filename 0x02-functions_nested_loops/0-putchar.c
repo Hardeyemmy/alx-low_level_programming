@@ -6,14 +6,9 @@
  */
 int main(void)
 {
-	char string[8] = "_putchar";
-	int n = 0;
+	int i;
 
-	while (n < 8)
-	{
-	_putchar(string[n]);
-	++n;
-	}
-	_putchar(10);
+	i = 0;
+	positive_negative(i);
 	return (0);
 }
