@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main -sign of a number
+ * print_sign - sign of a number
  *
  * Return: print 1, 0 0r -1
  */

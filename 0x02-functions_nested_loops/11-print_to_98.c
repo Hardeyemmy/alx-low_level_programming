@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - natural numbers from n to 98
+ * print_to_98 - natural numbers from n to 98
  *
  * Return: void
  */

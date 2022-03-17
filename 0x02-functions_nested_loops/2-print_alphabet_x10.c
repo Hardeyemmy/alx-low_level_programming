@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - Print alphabet 10x
+ * print_alphabet_x10 - Print alphabet 10x
  *
  * Description: uses two loop to print a - z 10 times
  *

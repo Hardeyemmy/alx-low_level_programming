@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - jack bauer countdown
+ * jack_bauer - jack bauer countdown
  *
  * Return: End the program
  */

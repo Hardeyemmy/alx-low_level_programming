@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - check for uppercase letters
+ * _isalpha - check for uppercase letters
  *
  * Return: 1 if c is uppercase  or 0 if c is anything else
  */

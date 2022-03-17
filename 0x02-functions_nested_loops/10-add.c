@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - print all natural numbers from n to 98
+ * add - print all natural numbers from n to 98
  *
  * Result: void returns nothing
  */
