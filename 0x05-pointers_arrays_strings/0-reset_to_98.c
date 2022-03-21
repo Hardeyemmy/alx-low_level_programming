@@ -2,7 +2,7 @@
 /**
  * reset_to_98 - print an int and update it
  *
- * n - parameter pass int the funtion
+ *@n - parameter pass int the funtion
  *
  * Return: End the program
  */
