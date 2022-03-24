@@ -13,10 +13,13 @@ char *leet(char *s)
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-	for (s[i] == l[j] || s[i] == (l[j] - 32))
+		for (j = 0; s[j] != '\0'; j++)
+		{
+	if (s[i] == l[j] || s[i] == (l[j] - 32))
 	{
 		s[i] = j + '0';
 	}
+		}
 	}
 	return (s);
 }
