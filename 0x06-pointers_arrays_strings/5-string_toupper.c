@@ -6,7 +6,7 @@
  *
  * Return: return *s
  */
-char *string_troupper(char *s)
+char *string_toupper(char *s)
 {
 	int i;
 
