@@ -24,7 +24,7 @@ int is_palindrome(char *s)
   */
 int check_palindrome(char *s)
 {
-	int l = strlen_recur(s) - 1;
+	int l = _strlen_recursion(s) - 1;
 
 	if (*s == s[l])
 	{
@@ -38,18 +38,18 @@ int check_palindrome(char *s)
 	return (1);
 }
 /**
- * strlen_recur - get the lenght of the string
+ * _strlen_recursion - get the lenght of the string
  *
  * @s: the string to get to the depth
  *
  * Return: End the programe
  */
-int strlen_recur(char *s)
+int _strlen_recursion(char *s)
 {
 	if (*s == '\0')
 	{
 		return (0);
 	}
 	s++;
-	return (strlen_recur(s) + 1);
+	return (_strlen_recursion(s) + 1);
 }
