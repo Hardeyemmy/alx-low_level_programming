@@ -13,9 +13,17 @@ int _sqrt_recursion(int n)
 {
 	return (_sqrt(n, 1));
 }
+/**
+ * _sqrt - print square root
+ *
+ * @n: int parameter 1
+ * @i: int parameter 2
+ *
+ * Return: End the program
+ */
 int _sqrt(int n, int i)
 {
-	int sqrt = i * i ;
+	int sqrt = i * i;
 
 		if (sqrt < 1)
 		{
