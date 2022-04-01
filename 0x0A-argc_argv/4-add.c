@@ -10,7 +10,7 @@
  *
  * Return: sum
  */
-int main(int argc, char *agrv[])
+int main(int argc, char *argv[])
 {
 	unsigned int i, sum, num;
 
