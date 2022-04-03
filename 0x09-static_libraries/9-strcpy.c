@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _strcpy - copy a string into another string
+ * _strncpy - copy a string into another string
  *
  * @dest: pointer parameter 1
  * @src: pointer parameter 2
@@ -8,7 +8,7 @@
  *
  * Return: End the program
  */
-char *_strcpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i;
 
