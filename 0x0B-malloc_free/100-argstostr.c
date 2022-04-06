@@ -32,7 +32,7 @@ char *argstostr(int ac, char **av)
 	int len, R = 0;
 	char *p;
 
-	if (!ac || !av)
+	if ((ac == '\0') || (av == NULL))
 	{
 		return (NULL);
 	}
