@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "variadics_functions.h"
+#include "variadic_functions.h"
 /**
  * print_strings - function that print strings followed by a new line
  *
@@ -21,9 +21,9 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			if (i != n - 1)
 			{
 				if (separator != NULL)
-					printf("%s%s", make_nil(va_arg(params, char *)), separator);
+		printf("%s%s", make_nil(va_arg(params, char *)), separator);
 					else
-						printf("%s", make_nil(va_arg(params, char *)));
+				printf("%s", make_nil(va_arg(params, char *)));
 			}
 			else
 			{
