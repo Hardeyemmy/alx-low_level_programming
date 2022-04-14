@@ -8,7 +8,7 @@
  */
 void print_all(const char * const format)
 {
-	int j = 0, last-arg;
+	int j = 0, last_arg;
 	char type;
 	va_list params;
 
