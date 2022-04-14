@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "variadic_functions.h"
 /**
  * print_strings - function that print strings followed by a new line
@@ -22,7 +21,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			{
 				if (separator != NULL)
 		printf("%s%s", make_nil(va_arg(params, char *)), separator);
-					else
+				else
 				printf("%s", make_nil(va_arg(params, char *)));
 			}
 			else
@@ -35,8 +34,6 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	printf("\n");
 	va_end(params);
 }
-
-
 /**
  * make_nil - change s to nil if s is null
  *
