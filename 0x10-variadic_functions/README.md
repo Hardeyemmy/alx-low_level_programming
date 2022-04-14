@@ -1,1 +1,1 @@
-varaiadic functions stdarg.h, variadic functions, const keyword
+variadic functions in c programming
