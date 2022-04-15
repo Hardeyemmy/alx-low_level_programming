@@ -61,7 +61,7 @@ int count_format(const char * const format)
 	int i = 0, j = 0;
 	char type;
 
-	while (*(format + j) != 0 && (format != NULL))
+	while (*(format + j) != '\0' && (format != NULL))
 	{
 		type = *(format + j);
 		switch (type)
@@ -100,7 +100,9 @@ int count_format(const char * const format)
 void print_comma(int j, int x)
 {
 	if (j != x)
+	{
 		printf(", ");
+	}
 }
 /**
  * make_nil - changes s to be nil if s is null
