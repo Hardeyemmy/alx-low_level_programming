@@ -114,6 +114,8 @@ void print_comma(int j, int x)
 char *make_nil(char *s)
 {
 	if (s == NULL)
+	{
 		s = "(nil)";
+	}
 	return (s);
 }
