@@ -10,7 +10,7 @@ mov rdx, msglen
 syscall
 
 mov rax, 60
-ov rdi, 0
+mov rdi, 0
 syscall
 
 section .rodata
