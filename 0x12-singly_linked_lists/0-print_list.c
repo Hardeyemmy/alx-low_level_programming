@@ -1,4 +1,4 @@
-#include <list.h>
+#include <lists.h>
 /**
  * print_list - prints all the element of a linked list
  * @h: head of the list
