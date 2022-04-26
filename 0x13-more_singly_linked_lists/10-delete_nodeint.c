@@ -34,7 +34,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		head = &((*head)->next);
 		i++;
 	}
-	return (-1)
+	return (-1);
 }
 /**
  * listint_len - counts the number of nodes in a linked list
@@ -42,7 +42,7 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
  *
  * Return: the number of elements
  */
-size_t listint_len(const listint *h)
+size_t listint_len(const listint_t *h)
 {
 	const listint_t *cursor = h;
 	size_t count = 0;
