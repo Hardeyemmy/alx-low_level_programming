@@ -47,7 +47,7 @@ size_t looped_listint_count(listint_t *head)
 /**
  * free_listint_safe - frees a listint_t list safely
  *
- * @h: Apointer to the address of the head of the listint_t
+ * @h: A pointer to the address of the head of the listint_t
  *
  * Return: The size of the list that was freed
  */
@@ -60,7 +60,7 @@ size_t free_listint_safe(listint_t **h)
 
 	if (nodes == 0)
 	{
-		for (; h != NULL & *h != NULL; nodes++)
+		for (; h != NULL && *h != NULL; nodes++)
 		{
 			tmp = (*h)->next;
 			free(*h);
