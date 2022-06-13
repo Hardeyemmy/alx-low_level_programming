@@ -27,4 +27,7 @@ char *_strstr(char *haystack, char *needle);
 void connect();
 int randNum();
 int addNum(int a, int b);
+int subNum(int a, int b);
+int mulNum(int a, int b);
+int divNum(int a, int b);
 #endif /* MAIN_H */
